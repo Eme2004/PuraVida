@@ -6,8 +6,8 @@ package application;
 
 /**
  *
- * @author TheJPlay2006
+ * @author Emesis
  */
 public class GestionInventario {
-    
+  
 }

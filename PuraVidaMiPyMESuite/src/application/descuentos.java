@@ -9,5 +9,5 @@ package application;
  * @author TheJPlay2006
  */
 public class descuentos {
-    
+  
 }
