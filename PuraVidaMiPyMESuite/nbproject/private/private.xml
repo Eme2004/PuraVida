@@ -10,6 +10,12 @@
             <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Orden.java</file>
             <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/application/Pagos.java</file>
             <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/application/descuentos.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ComprobanteGenerator.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/tests/MiniTestRunner.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/PrecioInvalidoException.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/StockNegativoException.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/ProductoDuplicadoException.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/StockInsuficienteException.java</file>
         </group>
     </open-files>
 </project-private>
