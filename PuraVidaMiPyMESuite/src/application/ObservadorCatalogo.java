@@ -8,6 +8,6 @@ package application;
  *
  * @author Emesis
  */
-public interface Pagos {
-
+public interface ObservadorCatalogo {
+    void catalogoActualizado();
 }

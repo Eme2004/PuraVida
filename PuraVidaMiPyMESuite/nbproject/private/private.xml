@@ -3,19 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Producto.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ProductoRepositorioCSV.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/application/GestionInventario.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/ItemOrden.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Orden.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/application/Pagos.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/application/descuentos.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ComprobanteGenerator.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/tests/MiniTestRunner.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/PrecioInvalidoException.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/StockNegativoException.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/ProductoDuplicadoException.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/domain/StockInsuficienteException.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/JsonManualSerializer.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/productos.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/clientes.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/backups.java</file>
+            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/workers/FidelizacionWorker.java</file>
         </group>
     </open-files>
 </project-private>

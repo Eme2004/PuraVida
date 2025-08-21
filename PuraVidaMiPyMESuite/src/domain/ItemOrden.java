@@ -11,19 +11,46 @@ package domain;
 public class ItemOrden {
     private Producto producto;
     private int cantidad;
-    private double precioUnitario;
 
     public ItemOrden(Producto producto, int cantidad) {
+        if (producto == null) {
+            throw new IllegalArgumentException("El producto no puede ser nulo.");
+        }
+        if (cantidad <= 0) {
+            throw new IllegalArgumentException("La cantidad debe ser mayor a cero.");
+        }
         this.producto = producto;
         this.cantidad = cantidad;
-        this.precioUnitario = producto.getPrecio();
-    }
-
-    public double getTotal() {
-        return cantidad * precioUnitario;
     }
 
     // Getters
-    public Producto getProducto() { return producto; }
-    public int getCantidad() { return cantidad; }
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    // Setters (opcional)
+    public void setCantidad(int cantidad) {
+        if (cantidad <= 0) {
+            throw new IllegalArgumentException("La cantidad debe ser mayor a cero.");
+        }
+        this.cantidad = cantidad;
+    }
+
+    // Precio total del item
+    public double getTotal() {
+        return producto.getPrecio() * cantidad;
+    }
+
+    @Override
+    public String toString() {
+        return "ItemOrden{" +
+                "producto=" + producto.getNombre() +
+                ", cantidad=" + cantidad +
+                ", total=$" + String.format("%.2f", getTotal()) +
+                '}';
+    }
 }

@@ -8,48 +8,46 @@ package domain;
  *
  * @author Emesis
  */
-
-//Variables
 public class Producto {
     private String codigo;
     private String nombre;
-    private String categoria;
     private double precio;
-    private int stockMin;
-    private int stockActual;
+    private int stock;
 
-    // Constructor
-    public Producto(String codigo, String nombre, String categoria, double precio, int stockMin, int stockActual) {
-        if (precio <= 0) throw new PrecioInvalidoException("Precio debe ser mayor a 0");
-        if (stockMin < 0 || stockActual < 0) throw new StockNegativoException("Stock no puede ser negativo");
+    public Producto(String codigo, String nombre, double precio, int stock) {
         this.codigo = codigo;
         this.nombre = nombre;
-        this.categoria = categoria;
         this.precio = precio;
-        this.stockMin = stockMin;
-        this.stockActual = stockActual;
+        this.stock = stock;
     }
 
     // Getters y setters
     public String getCodigo() { return codigo; }
     public String getNombre() { return nombre; }
-    public String getCategoria() { return categoria; }
     public double getPrecio() { return precio; }
-    public int getStockMin() { return stockMin; }
-    public int getStockActual() { return stockActual; }
+    public int getStock() { return stock; }
+    public void setStock(int stock) { this.stock = stock; }
 
-    public void setPrecio(double precio) {
-        if (precio <= 0) throw new PrecioInvalidoException("Precio inválido: " + precio);
-        this.precio = precio;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Producto producto = (Producto) o;
+        return codigo.equals(producto.codigo);
     }
 
-    public void setStockActual(int stockActual) {
-        if (stockActual < 0) throw new StockNegativoException("Stock actual no puede ser negativo");
-        this.stockActual = stockActual;
+    @Override
+    public int hashCode() {
+        return codigo.hashCode();
     }
 
     @Override
     public String toString() {
-        return codigo + "," + nombre + "," + categoria + "," + precio + "," + stockMin + "," + stockActual;
+        return "Producto{" +
+                "codigo='" + codigo + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                ", stock=" + stock +
+                '}';
     }
 }
