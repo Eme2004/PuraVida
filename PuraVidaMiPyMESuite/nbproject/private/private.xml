@@ -3,11 +3,40 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/JsonManualSerializer.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/productos.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/clientes.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/data/backups.java</file>
-            <file>file:/C:/Users/USER/Desktop/Practica%20Examen/PuraVida/PuraVidaMiPyMESuite/src/workers/FidelizacionWorker.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/Main/Main.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Producto.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Cliente.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/domain/Orden.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/domain/ItemOrden.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ComprobanteGenerator.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/JsonManualSerializer.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/GestionInventario.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/AnalisisService.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/ClienteService.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/workers/FidelizacionWorker.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/tests/MiniTestRunner.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/productos.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/clientes.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/backups.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/Catalogo.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/FabricaPagos.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/GestionOrdenes.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/application/ObservadorCatalogo.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/EstrategiaPago.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/PagoEfectivo.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/PagoTarjeta.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/data/PagoTransferencia.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/domain/PrecioInvalidoException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/exception/PagoInvalidoException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/exception/ProductoDuplicadoException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/exception/ProductoNoEncontradoException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/exception/StockInsuficienteException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/exception/StockNegativoException.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/CifradorAES.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ClienteRepositorio.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/ProductoRepositorio.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/infrastructure/RepositorioCSV.java</file>
+            <file>file:/C:/Users/jh599/OneDrive/Documentos/Practica_examen/PuraVida/PuraVidaMiPyMESuite/src/ui/CatalogoPanel.java</file>
         </group>
     </open-files>
 </project-private>
